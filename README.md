@@ -1,23 +1,22 @@
-# 200 DTD Assessment
+# PROJECT NAME HERE
 
-## Purpose
+This is my Level 2 NCEA project for Digital Technologies
 
-This project is a system that allows a user to keep track of supplies
+![Example Image](images/hammer.png)
 
-## Features
+It is a database-connected website that allows users to:
 
-- Allows users to browse. . .
-- Allows users to add. . .
+- Easily remove and add tools
+- Edit info about stock
+- Able to view all the tools
+- Make a list of needed items
+- Move lists from needed and have
 
-## System Design & Testing
 
-All of the initial design for the system can be found 
-[here](Design.md)
+## Documentation
 
-testing of features and further design revisions can be found
-[here](Testing.md)
+The following documents support this project:
 
-## Project Mascot
-
-![Hammer](images/hammer.png)
+- [Design & Review](Design.md)
+- [Development & Testing](Development.md)
 
