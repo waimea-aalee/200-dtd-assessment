@@ -55,6 +55,10 @@ Replace this text with an explanation of what you will need to consider moving f
 
 When making my site I will need to consider things about the end user such as, age and interests, if it appeals to the correct audience and what device they are most likely going to use. I will try to know as much as I can about the end user for things such as age, gender, interests and correct language. I should make sure the end user can input feedback to the site so they can help with design and make it a better experience for them and everyone.
 
+### Aesthetics
+
+
+
 -------------------------------------------------
 
 ## Final System Design
