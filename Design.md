@@ -13,16 +13,15 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-Replace this text with a clearly stated problem or need that exists that your project will attempt to solve / fulfil.
+I noticed a problem with some people is keeping track of supplies, like if you are a builder and there are lots of things you contantly lose or forget where they are.
 
 ### End-User Requirements
 
-Replace this text with a description of your typical end-users and their specific needs / expectations / requirements.
+The typical end users will have a job that involves having a lot of stock that makes it hard to keep track of. Their levels of skill with IT may vary, as well as age so it should be simplistic and easy to understand what is going on. More requirements may be text font, size and colours.
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
-
+I decided to make a list to keep track of supplies, it should have where they are and how many, where items can easily be edited, added or removed. It should also be catergorised so the tools are seperate to smaller things like screws. I think there could be a seperate list of items needing to get so the end user does not forget what they need,
 
 -------------------------------------------------
 
@@ -42,18 +41,19 @@ Functionality means how well the site works for the end user and is doing what i
 
 The functionality is important because if the project does not work how intended it would be frustrating for the end user.
 
-When making my site I will need to consider that it meets the needs of the end users requirements/needs. It also needs to do and cope with all actions e.g. if invalid action done, an end user friendly error message will come up instead of the whole page coming up with a bunch of error code, and all commands and buttons are working correc;y
+When making my site I will need to consider that it meets the needs of the end users requirements/needs. It also needs to do and cope with all actions e.g. if invalid action done, an end user friendly error message will come up instead of the whole page coming up with a bunch of error code, and all commands and buttons are working correctly
 
 Fully satisfy the original need / purpose
 
 ### End User
 
-Replace this text with a clear explanation of what the implication means.
+End user means that the site or app is working how a specific end user may need
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is important because if it was not adjusted to the end users needs it will make it difficult to use your site and they will most likely just use another that meets their needs better.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
+When making my site I will need to consider things about the end user such as, age and interests, if it appeals to the correct audience and what device they are most likely going to use. I will try to know as much as I can about the end user for things such as age, gender, interests and correct language. I should make sure the end user can input feedback to the site so they can help with design and make it a better experience for them and everyone.
 
 -------------------------------------------------
 
