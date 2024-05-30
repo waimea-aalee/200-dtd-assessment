@@ -11,11 +11,13 @@ Assessment Standards: **91892** and **91893**
 
 ## Design, Development and Testing Log
 
-### DATE HERE
+### 28/05/2024
 
-Replace this test with what you are working on
+Flow chart showing how to navigate the app
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I have made a little chart in Excalidraw to show how to navigate around the app, the arrow shows every possible action you can take and points to the screen you'd go to if you did it.
+
+![Alt text](image.png)
 
 ### DATE HERE
 
