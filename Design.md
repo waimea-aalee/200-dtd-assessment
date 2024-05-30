@@ -51,13 +51,15 @@ End user means that the site or app is working how a specific end user may need
 
 This implication is important because if it was not adjusted to the end users needs it will make it difficult to use your site and they will most likely just use another that meets their needs better.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
-
 When making my site I will need to consider things about the end user such as, age and interests, if it appeals to the correct audience and what device they are most likely going to use. I will try to know as much as I can about the end user for things such as age, gender, interests and correct language. I should make sure the end user can input feedback to the site so they can help with design and make it a better experience for them and everyone.
 
 ### Aesthetics
 
+Aesthetics relates to how the design looks
 
+This is important because certain designs will appeal to certain or different audiences and the font style is nice for the end user ie they can read the font
+
+When making my site I will need to consider how it appeals to the correct audience, create a design that is suitable for the purpose, use colours that work well together and are pleasing, use fonts to have an appropriate 'feel', group/seperate elements to focus attention on linked related items.
 
 -------------------------------------------------
 
