@@ -1,6 +1,6 @@
 # Design of a Database-Linked Website for NCEA Level 2
 
-Project Name: **PROJECT NAME HERE**
+Project Name: **Supply List**
 
 Project Author: **Azaria Lee**
 
@@ -10,6 +10,11 @@ Assessment Standards: **91892** and **91893**
 -------------------------------------------------
 
 ## System Requirements
+
+Purpose of outcome identified and described, listing specific requirements
+End-users identified and described, listing specific requirements
+Key functionality that satisfies the purpose and end-user requirements identified
+Implications, relevant to purpose and end-users, are described and linked to design of outcome
 
 ### Identified Need or Problem
 
@@ -33,7 +38,7 @@ Usability means how easy the project is to use for the end user.
 
 The usability in this project is important so that the end user is able to use the site correctly and with ease.
 
-To achieve this I will make sure the menu is easy to see and always available to get to, the design should have familiar icons like an x icon for delete. It needs to have obvious buttons, so if the end user accidentally clicks something there is a back button to back out. It needs to be obvious to understand what is going on on every page with easy to understand words. All this will make it easier for the end user especially if they are not very skilled with IT.
+To achieve this I will refer to Nielsen's usability heuristics by making sure the menu is easy to see and always available to get to, the design should have familiar icons like an x icon for delete. It needs to have obvious buttons, so if the end user accidentally clicks something there is a back button to back out. It needs to be obvious to understand what is going on on every page with easy to understand words. All this will make it easier for the end user especially if they are not very skilled with IT.
 
 ### Functionality
 

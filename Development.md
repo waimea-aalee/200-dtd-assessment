@@ -17,19 +17,26 @@ Flow chart showing how to navigate the app
 
 I have made a little chart in Excalidraw to show how to navigate around the app, the arrow shows every possible action you can take and points to the screen you'd go to if you did it.
 
-![Alt text](image.png)
+![Alt text](images/flowchart.png)
 
-### DATE HERE
+### 30/05/2024 - 10/06/2024
 
-Replace this test with what you are working on
+Designing the app
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I have made a wireframe, with no colour, of what the mobile app may look like before talking to my end user. The blue arrows indicate if you click where it starts, it will take you to a specific page/where the arrow is pointing. The the following screenshot shows without the navigation to have a better viewing.
 
-### DATE HERE
+![Alt text](images/supplylist_v1_flow.png)
+![Alt text](images/supplylist_v1.png)
 
-Replace this test with what you are working on
+### 10/06/2024
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I have started thinking up a colour scheme to use, here is the link to realtime colours, the website that shows how the colours look in real time on the website.
+
+https://www.realtimecolors.com/?colors=df7676-ffffff-d52e2e-f08c8c-fcadae&fonts=Inter-Inter
+
+I have used a brighter red so it is easy to notice, along with a white background, as for my end user prefers the light mode instead of dark mode on websites and apps and all the colours alternate nicely so every colour is seeable.
+
+![Alt text](images/colours.png)
 
 ### DATE HERE
 

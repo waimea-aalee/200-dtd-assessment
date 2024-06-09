@@ -1,4 +1,4 @@
-# PROJECT NAME HERE
+# Supply List
 
 This is my Level 2 NCEA project for Digital Technologies
 
