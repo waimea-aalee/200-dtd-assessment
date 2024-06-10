@@ -1,8 +1,8 @@
 # Development of a Database-Linked Website for NCEA Level 2
 
-Project Name: **PROJECT NAME HERE**
+Project Name: **Supply List**
 
-Project Author: **YOUR NAME HERE**
+Project Author: **Azaria Lee**
 
 Assessment Standards: **91892** and **91893**
 

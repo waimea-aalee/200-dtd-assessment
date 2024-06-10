@@ -11,10 +11,7 @@ Assessment Standards: **91892** and **91893**
 
 ## System Requirements
 
-Purpose of outcome identified and described, listing specific requirements
-End-users identified and described, listing specific requirements
-Key functionality that satisfies the purpose and end-user requirements identified
-Implications, relevant to purpose and end-users, are described and linked to design of outcome
+My project will be a list formed in a mobile app for easy accessibility for the end users so, the list can be easily modified, as for end users may vary in levels of IT skill. Requirements may need some easy to read, bold and big font. The list should include where last left so remembering where everything is is easier. The buttons should all be easy to tell what they are for; e.g. home icon to go back to the home page.
 
 ### Identified Need or Problem
 
@@ -26,7 +23,17 @@ The typical end users will have a job that involves having a lot of stock that m
 
 ### Proposed Solution
 
-I decided to make a list to keep track of supplies, it should have where they are and how many, where items can easily be edited, added or removed. It should also be catergorised so the tools are seperate to smaller things like screws. I think there could be a seperate list of items needing to get so the end user does not forget what they need,
+A website or app that will be easy to keep track of any supplies.
+
+The end user should be able to:
+- See a list of what they have
+- Easily modify info on stock
+- Add new stock
+
+And the system should be
+
+- Easy to use and understand for all IT skills
+- Accessible to all
 
 -------------------------------------------------
 
