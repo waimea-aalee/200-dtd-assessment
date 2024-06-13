@@ -28,6 +28,17 @@ I have made a wireframe, with no colour, of what the mobile app may look like be
 ![Alt text](images/supplylist_v1_flow.png)
 ![Alt text](images/supplylist_v1.png)
 
+When talking with my end user they gave me feedback
+> It's good but I think on the needed stock page should have 2 checklists, one for stuff that has been ordered then another for arrived as well as a delete button on the home page to delete items
+
+### 13/06/2024
+
+I used the end users feedback to add the features they thought would be more helpful
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+![Alt text](images/supplylist_v2.png)
+
 ### 10/06/2024
 
 I have started thinking up a colour scheme to use, here is the link to realtime colours, the website that shows how the colours look in real time on the website.
@@ -38,17 +49,26 @@ I have used a brighter red so it is easy to notice, along with a white backgroun
 
 ![Alt text](images/colours.png)
 
-### DATE HERE
+When talking with my end user they gave me feedback
+> I think the text should be a darker colour so it is easier to read
 
-Replace this test with what you are working on
+### 13/06/2024
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Changed the text colour
 
-### DATE HERE
+I used my end users feedback and made the text a darker colour to contrast with the white background
 
-Replace this test with what you are working on
+https://www.realtimecolors.com/?colors=990606-ffffff-dc3030-f08c8c-fcadae&fonts=Inter-Inter
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![Alt text](images/colours_v2.png)
+
+### 13/06/2024
+
+Added colour
+
+I tried creating the first design with colour, I am unsure about the pinks but I will talk to my end user about it, other than that the texts are easy to read because of the darker text colour and lighter bacground colours
+
+![Alt text](images/supplylist_colour_v1.png)
 
 ### DATE HERE
 
