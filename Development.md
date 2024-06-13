@@ -35,9 +35,17 @@ When talking with my end user they gave me feedback
 
 I used the end users feedback to add the features they thought would be more helpful
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+They thought to add a delete feature on the home page so it is more efficient to delete stuff from the home page and added the 2 checklists on needed stock, the idea is so the end user can keep track of stuff that is on the way and then once they arrived they caan tick that box and it will move back to the home page
 
 ![Alt text](images/supplylist_v2.png)
+
+### 13/06/2024
+
+Moving some stuff around + added new page
+
+I decided to add an extra page if the end user were to delete something a new page would appear asking if the end user is sure they want this to be done to avoid them accidentally clicking it. And then also moved "view needed" to the top in the nav bar for easier access.
+
+![Alt text](images/supplylist_v3.png)
 
 ### 10/06/2024
 
