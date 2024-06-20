@@ -8,7 +8,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
 
     <title>Supply List</title>
 
