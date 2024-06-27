@@ -21,7 +21,7 @@ try {
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB Task Fetch', ERROR);
     die('There was an error getting tools');
-}
+ } 
 
 // See what comes back
 consoleLog($gotTools);

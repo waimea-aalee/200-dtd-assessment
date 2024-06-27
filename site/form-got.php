@@ -7,11 +7,17 @@ include 'partials/top.php';
 
 <form method="post" action="add-tool">
 
-    <label>Tool:</label>
+    <label>Tool Name:</label>
     <input name="name"
         type="text"
         placeholder="e.g Hammer"
         minlength="3"
+        required>
+
+    <label>Amount:</label>
+    <input name="amount"
+        type="number"
+        minlength="1"
         required>
 
     <label for="location-select">Location:</label>

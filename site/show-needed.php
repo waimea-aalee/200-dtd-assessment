@@ -44,8 +44,6 @@ foreach($neededTools as $tool) {
     echo    '</li>';
 }
 
-echo    '</ul>';
-
 //------------------------------------------------------------------
 
 echo '<div id="add-button">
