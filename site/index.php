@@ -21,8 +21,16 @@ try {
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB Task Fetch', ERROR);
     die('There was an error getting tools');
- } 
+ } ?>
 
+<input
+  type="search"
+  name="search"
+  placeholder="Search.."
+  aria-label="Search"
+/>
+
+<?php
 // See what comes back
 consoleLog($gotTools);
 
@@ -37,7 +45,7 @@ foreach($gotTools as $tool) {
     echo    $tool['name'];
     echo    '</a>';
 
-    echo    '<a href="delete-tool.php?id=' . $tool['id'] . '">';
+    echo    '<a href="are-you-sure.php?id=' . $tool['id'] . '">';
     echo    '🗑️';
     echo    '</a>';
 
@@ -48,11 +56,12 @@ echo    '</ul>';
 
 //------------------------------------------------------------------
 
-echo '<div id="add-button">
+echo '<button
+        div id="add-button"
         <a href="form-got.php">
         +
         </a>
-</div>';
+</button>';
 
 include 'partials/bottom.php';
 

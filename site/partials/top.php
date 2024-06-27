@@ -6,26 +6,23 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 ?>
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="css/pico.lime.min.css" />
     <title><?= SITE_NAME ?></title>
+  </head>
 
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-
-    <header>
+  <body>
+    <main class="container">
         <h1><?= SITE_NAME ?></h1>
-
         <nav>
             <a href="show-needed.php"     class="<?= $page=='show-needed.php'     ? 'active' : '' ?>">View Needed</a>
             <a href="index.php"     class="<?= $page=='index.php'     ? 'active' : '' ?>">🏠︎</a>
         </nav>
-    </header>
-
-    <main>
+    </main>
+  </body>
+</html>

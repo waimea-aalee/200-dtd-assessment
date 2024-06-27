@@ -37,13 +37,25 @@ foreach($neededTools as $tool) {
     echo    $tool['name'];
     echo    '</a>';
 
-    echo    '<a href="toggle-ordered.php?id=' . $tool['id'] . '">';
-    echo    '☐';
-    echo    '</a>';
+    // echo    '<a href="toggle-ordered.php?id=' . $tool['id'] . '">';
+    // echo    '☐';
+    // echo    '</a>';
 
     echo    '</li>';
 }
+?>
 
+<fieldset>
+    <legend>Status</legend>
+    <label>
+        <input type="checkbox"  id="ordered" name="ordered" checked />
+        <label htmlFor="ordered">Ordered</label>
+    <label>
+        <input type="checkbox" id="arrived" name="arrived" />
+        <label htmlFor="arrived">Arrived</label>
+</fieldset>
+
+<?php
 //------------------------------------------------------------------
 
 echo '<div id="add-button">
