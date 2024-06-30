@@ -5,9 +5,11 @@ include 'partials/top.php';
 
 <h2>Add Tool</h2>
 
-<form method="post" action="add-tool">
 
-    <label>Tool Name:</label>
+<form method="post" action="add-tool.php">
+
+<div id="add-item">
+    <label>Name:</label>
     <input name="name"
         type="text"
         placeholder="e.g Hammer"
@@ -28,6 +30,13 @@ include 'partials/top.php';
     <option value="4">Ordered</option>
     <option value="5">Arrived</option>
 </select>
+
+  <label for="yes_no_radio">Got?:</label>
+    <input type="radio" name="yes_no" checked>Yes</input>
+    <input type="radio" name="yes_no">No</input>
+
+    <input type="submit" value="Add">
+</div>
 
 </form>
 

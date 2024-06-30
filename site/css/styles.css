@@ -26,6 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    color: white;
     background-color: #4AB86B;
     border-bottom: 1px solid black;
 }
@@ -63,6 +64,13 @@ main {
 #add-button a:hover {
     background-color: #3ba35a;
 }
+
+/* RADIO YES OR NO BUTTONS ****************************************/
+
+/* #got_button {
+    display: flex;
+} */
+
 
 /* FOOTER *********************************************************/
 

@@ -19,8 +19,8 @@ header {
 
     --pico-display: flex;
     --pico-justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #4AB86B;
-    border-bottom: 1px solid black;
+    --pico-align-items: center;
+    --pico-padding: 1rem;
+    --pico-background-color: #4AB86B;
+    --pico-border-bottom: 1px solid black;
 }

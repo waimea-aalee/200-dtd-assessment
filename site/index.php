@@ -26,7 +26,7 @@ catch (PDOException $e) {
 <input
   type="search"
   name="search"
-  placeholder="Search.."
+  placeholder="Search..                          ⌕"
   aria-label="Search"
 />
 
@@ -56,12 +56,11 @@ echo    '</ul>';
 
 //------------------------------------------------------------------
 
-echo '<button
-        div id="add-button"
+echo '<div id="add-button"
         <a href="form-got.php">
         +
         </a>
-</button>';
+</div>';
 
 include 'partials/bottom.php';
 
