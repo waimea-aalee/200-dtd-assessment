@@ -56,12 +56,10 @@ echo    '</ul>';
 
 //------------------------------------------------------------------
 
-echo '<div id="add-button"
+echo '<div id="add-button">
         <a href="form-got.php">
-        +
+         +
         </a>
 </div>';
 
-include 'partials/bottom.php';
-
-?>
+include 'partials/bottom.php'; ?>

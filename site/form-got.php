@@ -8,12 +8,23 @@ include 'partials/top.php';
 
 <form method="post" action="add-tool.php">
 
+    <!-- <label>Got?:</label>
+    <select name="got" required>
+
+ <?php
+foreach($tools as $tool) {
+    echo    '<option value"' . $tool['got'] . '">';
+    echo    $tool['code'];
+    echo    '</option>';
+}
+?> -->
+
 <div id="add-item">
     <label>Name:</label>
     <input name="name"
         type="text"
         placeholder="e.g Hammer"
-        minlength="3"
+        minlength="2"
         required>
 
     <label>Amount:</label>
@@ -31,9 +42,21 @@ include 'partials/top.php';
     <option value="5">Arrived</option>
 </select>
 
-  <label for="yes_no_radio">Got?:</label>
-    <input type="radio" name="yes_no" checked>Yes</input>
-    <input type="radio" name="yes_no">No</input>
+    <!-- <div>
+    <label>Got?:</label>
+
+        <input type="radio"
+            id="g"
+            name="radio"
+            value="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio"
+            id="n"
+            name="radio"
+            value="no">
+        <label for="no">No</label>
+    </div> -->
 
     <input type="submit" value="Add">
 </div>

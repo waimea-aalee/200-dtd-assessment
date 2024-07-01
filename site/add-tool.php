@@ -15,7 +15,7 @@ $db = connectToDB();
 // Setup query to get all tool info
 $query = 'INSERT INTO tool
         (name, amount, location, got)
-        VALUES (?, ?, ?, ?';
+        VALUES (?, ?, ?, ?)';
 
 // Attempt to run query
 try {

@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 }
 
-/* HEADER *******************************************************/
+/* HEADER *********************************************************/
 
 header {
     position: sticky;
@@ -29,6 +29,13 @@ header {
     color: white;
     background-color: #4AB86B;
     border-bottom: 1px solid black;
+}
+
+/* NAV ************************************************************/
+
+nav a {
+    color: black;
+    text-decoration: none;
 }
 
 /* MAIN ***********************************************************/
@@ -64,13 +71,6 @@ main {
 #add-button a:hover {
     background-color: #3ba35a;
 }
-
-/* RADIO YES OR NO BUTTONS ****************************************/
-
-/* #got_button {
-    display: flex;
-} */
-
 
 /* FOOTER *********************************************************/
 
