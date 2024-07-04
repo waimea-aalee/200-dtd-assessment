@@ -26,15 +26,32 @@ catch (PDOException $e) {
 
 if ($tool == false) die('Unknown Tool: ' . $id);
 
-echo '<h2>Name: ' . $tool['name'] . '</h2>';
+echo '<p>Name: ' . $tool['name'] . '</p>';
 echo '<p>Amount: ' . $tool['amount'] . '</p>';
 echo '<p>Location: ' . $tool['location'] . '</p>';
-echo '<p>Got? ' . $tool['got'] . '</p>';
+echo '<p>Got? ' . $tool['got'] . '</p>'; ?>
 
-echo '<div id="add-button">
-        <a href="form-got.php">
-         +
+<!-- <div id="edit-info">
+<div class="quantity">
+  <button class="minus" aria-label="Decrease">&minus;</button>
+  <input type="number" class="input-box" value="1" min="1">
+  <button class="plus" aria-label="Increase">&plus;</button>
+</div> -->
+
+<select name="location">
+    <option value="1">At home</option>
+    <option value="2">On site</option>
+    <option value="3">Borrowed</option>
+    <option value="4">Ordered</option>
+    <option value="5">Arrived</option>
+</select>
+</div>
+
+<?php
+echo '<div id="save-button">
+        <a href="index.php">
+         Save
         </a>
 </div>';
 
-include 'partials/bottom.php';
+include 'partials/bottom.php'; ?>

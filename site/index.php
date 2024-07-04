@@ -4,6 +4,8 @@ include 'partials/top.php';
 
 echo '<h1>Weclome</h1>';
 
+echo '<h2>Stock</h2>';
+
 // Connecting to the database
 $db = connectToDB();
 
@@ -33,6 +35,8 @@ catch (PDOException $e) {
 <?php
 // See what comes back
 consoleLog($gotTools);
+
+echo '<ul id="got-tool-list">';
 
 foreach($gotTools as $tool) {
     echo    '<li>';

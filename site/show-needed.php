@@ -26,6 +26,8 @@ catch (PDOException $e) {
 // See what comes back
 consoleLog($neededTools);
 
+echo 'ul id="needed-tool-list">';
+
 foreach($neededTools as $tool) {
     echo    '<li>';
 
@@ -43,16 +45,19 @@ foreach($neededTools as $tool) {
 
     echo    '</li>';
 }
+
+echo '</ul>';
+
 ?>
 
 <fieldset>
     <legend>Status</legend>
     <label>
-        <input type="checkbox"  id="ordered" name="ordered" checked />
-        <label htmlFor="ordered">Ordered</label>
+        <input type="radio"  id="ordered" name="status" value="ordered" checked />
+        <label for="ordered">Ordered</label>
     <label>
-        <input type="checkbox" id="arrived" name="arrived" />
-        <label htmlFor="arrived">Arrived</label>
+        <input type="radio" id="arrived" name="status" value="arrived"/>
+        <label for="arrived">Arrived</label>
 </fieldset>
 
 <?php

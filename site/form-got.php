@@ -42,26 +42,16 @@ foreach($tools as $tool) {
     <option value="5">Arrived</option>
 </select>
 
-    <!-- <div>
-    <label>Got?:</label>
-
-        <input type="radio"
-            id="g"
-            name="radio"
-            value="yes">
-        <label for="yes">Yes</label>
-
-        <input type="radio"
-            id="n"
-            name="radio"
-            value="no">
-        <label for="no">No</label>
-    </div> -->
 
     <input type="submit" value="Add">
 </div>
 
 </form>
+
+<div id="cancel-button">
+    <a href="index.php" class="previous">&laquo; Cancel</a>
+</div>
+
 
 <?php
 include 'partials/bottom.php';
