@@ -78,8 +78,10 @@ I tried creating the first design with colour, I am unsure about the pinks but I
 
 ![Alt text](images/supplylist_colour_v1.png)
 
-### DATE HERE
+### 22/072024
 
-Replace this test with what you are working on
+New sql
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+We had a rethink of the table and it has been redone to more focus on the location
+
+![Alt text](images/sql_final.png)

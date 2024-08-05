@@ -10,9 +10,17 @@ echo '<h2>Stock</h2>';
 $db = connectToDB();
 
 // Setting up query to get list info
-$query = 'SELECT * FROM tool
-          WHERE got = 1
-          ORDER BY amount DESC';
+// ------------ Fix
+$query = 'SELECT area.location,
+                 area.name,
+                 tools.place,
+                 tools.name,
+                 tools.need
+                 
+         FROM tools
+         JOIN area ON tools.place = area.location
+         
+         ORDER BY area.name ASC';
 
 // Attempt to run query
 try {
@@ -25,12 +33,12 @@ catch (PDOException $e) {
     die('There was an error getting tools');
  } ?>
 
-<input
+<!-- <input
   type="search"
   name="search"
   placeholder="Search..                          ⌕"
   aria-label="Search"
-/>
+/> -->
 
 <?php
 // See what comes back
@@ -47,10 +55,6 @@ foreach($gotTools as $tool) {
 
     echo    '<a class="name" href="show-got.php?id=' . $tool['id'] . '">';
     echo    $tool['name'];
-    echo    '</a>';
-
-    echo    '<a href="are-you-sure.php?id=' . $tool['id'] . '">';
-    echo    '🗑️';
     echo    '</a>';
 
     echo    '</li>';

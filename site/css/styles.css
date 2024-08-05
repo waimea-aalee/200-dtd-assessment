@@ -107,7 +107,7 @@ main {
 #cancel-button a {
     text-decoration: none;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 1px 3px;
     border: 0.1rem solid #000;
     border-radius: 10%;
   }
