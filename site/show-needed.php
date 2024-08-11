@@ -8,8 +8,8 @@ echo '<h1>Needed Stock</h1>';
 $db = connectToDB();
 
 // Setting up query to get needed list info
-$query = 'SELECT * FROM tool
-          WHERE got = 0
+$query = 'SELECT * FROM tools
+          WHERE need = 1
           ORDER BY amount DESC';
 
 // Attempt to run query
@@ -23,19 +23,18 @@ catch (PDOException $e) {
     die('There was an error getting tools');
 }
 
+
 // See what comes back
 consoleLog($neededTools);
-
-echo 'ul id="needed-tool-list">';
 
 foreach($neededTools as $tool) {
     echo    '<li>';
 
-    echo    '<span class="amount' . $tool['amount'] . '">';
+    echo    '<a="amount' . $tool['amount'] . '">';
     echo    $tool['amount'];
-    echo    '</span>';
+    echo    '</a>';
 
-    echo    '<a class="name" href="show-got.php?id=' . $tool['id'] . '">';
+    echo    '<a ="name" href="show-got.php?id=' . $tool['id'] . '">';
     echo    $tool['name'];
     echo    '</a>';
 
@@ -62,7 +61,7 @@ echo '</ul>';
 
 <?php
 
-//------------------------------------------------------------------
+//---------------------------------------------------------------------------------
 
 echo '<div id="add-button">
         <a href="form-got.php">
