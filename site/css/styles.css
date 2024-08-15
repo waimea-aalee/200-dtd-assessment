@@ -56,16 +56,16 @@ main {
 
 /* LISTS **********************************************************/
 
-#got-tool-list,
-#needed-tool-list {
+#tool-list-got,
+#tool-list-need {
     list-style: none;
     padding: 0;
     width: max-content;
     margin: 1rem auto;
 }
 
-#got-tool-list li,
-#needed-tool-list li {
+#tool-list-got li,
+#tool-list-need li {
     margin-bottom: 0.3rem;
     display: flex;
     padding: 0.2rem 0.75rem;
@@ -73,6 +73,30 @@ main {
     gap: 1rem;
     background-color: #4AB86B;
     border-radius: 3rem;
+}
+
+/* SAVE BUTTON *****************************************************/
+
+#save-button {
+    text-decoration: none;
+}
+
+#save-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    height: 1.5rem;
+    width: 3rem;
+    background-color: #4AB86B;
+    color: #000;
+    border-radius: 1rem;
+    border: 0.1rem solid #000;
+}
+
+#save-button a:hover {
+    background-color: #3BA35A;
 }
 
 /* ADD BUTTON *****************************************************/
@@ -99,7 +123,7 @@ main {
 }
 
 #add-button a:hover {
-    background-color: #3ba35a;
+    background-color: #3BA35A;
 }
 
 /* CANCEL BUTTON ***********************************************/

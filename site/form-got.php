@@ -9,15 +9,15 @@ include 'partials/top.php';
 <form method="post" action="add-tool.php">
 
     <!-- <label>Got?:</label>
-    <select name="got" required>
+    <select name="got" required> -->
 
  <?php
-foreach($tools as $tool) {
+foreach($gotTools as $tool) {
     echo    '<option value"' . $tool['got'] . '">';
     echo    $tool['code'];
     echo    '</option>';
 }
-?> -->
+?> 
 
 <div id="add-item">
     <label>Name:</label>

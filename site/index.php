@@ -10,17 +10,7 @@ echo '<h2>Stock</h2>';
 $db = connectToDB();
 
 // Setting up query to get list info
-// ------------ FIX
-// $query = 'SELECT * FROM tools';
-// $query = 'SELECT tools.id   AS tid,
-//                  tools.amount AS tamount,
-//                  tools.name AS tname,
-//                  tools.place AS tplace,
-//                  area.location AS aloc,
-//                  area.name AS aname
-                 
-//                  FROM tools
-//                  JOIN area ON tools.place = area.name'; // ?
+$query = 'SELECT * FROM tools';
 
 // Attempt to run query
 try {
@@ -37,23 +27,35 @@ catch (PDOException $e) {
 // See what comes back
 consoleLog($gotTools);
 
-    echo '<ul id="tool-list-home">';
+    echo '<ul id="tool-list-got">';
 
     foreach($gotTools as $tool) {
         echo '<li>';
 
-        echo    '<a href="show-got.php?id=' . $tool['tid'] . '">';
-        echo    $tool['tname'];
+        echo    '<a href="show-got.php?id=' . $tool['id'] . '">';
+        echo    $tool['name'];
         echo    '</a>';
 
-        echo    '<a href="' . $tool['tplace'] . '">';
-        echo    $tool['area.name'];
-        echo    '</a>';
+        echo    '<select name="location">';
+        echo    '<option value="1">At home</option>';
+        echo    '<option value="2">On site</option>';
+        echo    '<option value="3">Borrowed</option>';
+        echo    '<option value="4">Ordered</option>';
+        echo    '<option value="5">Arrived</option>';
+        echo    '</select>';
 
         echo '</li>';
     }
 
-echo    '</ul>';
+echo    '</ul>'; ?>
+
+<?php
+echo '<div id="save-button">
+        <a href="update-tool.php">
+         Save
+        </a>
+</div>';
+
 
 //---------------------------------------------------------------------------------
 

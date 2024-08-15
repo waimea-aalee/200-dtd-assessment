@@ -11,7 +11,7 @@ $id = $_GET['id'] ?? '';
 $db = connectToDB();
 
 // Setup query to get all the tool info
-$query = 'SELECT * FROM tool WHERE id = ?';
+$query = 'SELECT * FROM tools WHERE id = ?';
 
 // Attempt to run the query
 try {
@@ -28,8 +28,7 @@ if ($tool == false) die('Unknown Tool: ' . $id);
 
 echo '<p>Name: ' . $tool['name'] . '</p>';
 echo '<p>Amount: ' . $tool['amount'] . '</p>';
-echo '<p>Location: ' . $tool['location'] . '</p>';
-echo '<p>Got? ' . $tool['got'] . '</p>'; ?>
+ ?>
 
 <!-- <div id="edit-info">
 <div class="quantity">
@@ -38,18 +37,9 @@ echo '<p>Got? ' . $tool['got'] . '</p>'; ?>
   <button class="plus" aria-label="Increase">&plus;</button>
 </div> -->
 
-<select name="location">
-    <option value="1">At home</option>
-    <option value="2">On site</option>
-    <option value="3">Borrowed</option>
-    <option value="4">Ordered</option>
-    <option value="5">Arrived</option>
-</select>
-</div>
-
 <?php
 echo '<div id="save-button">
-        <a href="index.php">
+        <a href="update-tool.php">
          Save
         </a>
 </div>';
