@@ -58,10 +58,22 @@ main {
 
 #tool-list-got,
 #tool-list-need {
+    text-decoration: none;
     list-style: none;
     padding: 0;
     width: max-content;
     margin: 1rem auto;
+}
+
+#tool-list-got a,
+#tool-list-need a {
+    color: #000;
+    text-decoration: none;
+}
+
+#tool-list-got a:hover,
+#tool-list-need a:hover {
+    text-decoration: underline;
 }
 
 #tool-list-got li,
@@ -71,6 +83,7 @@ main {
     padding: 0.2rem 0.75rem;
     width: 100%;
     gap: 1rem;
+    color: black;
     background-color: #4AB86B;
     border-radius: 3rem;
 }

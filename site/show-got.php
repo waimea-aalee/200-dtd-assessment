@@ -28,16 +28,10 @@ if ($tool == false) die('Unknown Tool: ' . $id);
 
 echo '<p>Name: ' . $tool['name'] . '</p>';
 echo '<p>Amount: ' . $tool['amount'] . '</p>';
- ?>
+echo '<a href="delete-tool.php?id=' . $tool['id'] . '">';
+echo '🗑️';
+echo '</a>';
 
-<!-- <div id="edit-info">
-<div class="quantity">
-  <button class="minus" aria-label="Decrease">&minus;</button>
-  <input type="number" class="input-box" value="1" min="1">
-  <button class="plus" aria-label="Increase">&plus;</button>
-</div> -->
-
-<?php
 echo '<div id="save-button">
         <a href="update-tool.php">
          Save

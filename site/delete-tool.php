@@ -7,7 +7,7 @@ $id = $_GET['id'] ?? '';
 $db = connectToDB();
 
 // Setting up a query to update the completed field
-$query = 'DELETE FROM tool
+$query = 'DELETE FROM tools
           WHERE id = ?';
 
 // Attempt to run query

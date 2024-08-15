@@ -30,13 +30,13 @@ consoleLog($neededTools);
 foreach($neededTools as $tool) {
     echo    '<li>';
 
-    echo    '<a="amount' . $tool['amount'] . '">';
-    echo    $tool['amount'];
-    echo    '</a>';
+echo    '<a="amount' . $tool['amount'] . '">';
+echo    $tool['amount'];
+echo    '</a>';
 
-    echo    '<a ="name" href="show-got.php?id=' . $tool['id'] . '">';
-    echo    $tool['name'];
-    echo    '</a>';
+echo    '<a ="name" href="show-got.php?id=' . $tool['id'] . '">';
+echo    $tool['name'];
+echo    '</a>';
 
     // echo    '<a href="toggle-ordered.php?id=' . $tool['id'] . '">';
     // echo    '☐';
@@ -45,22 +45,9 @@ foreach($neededTools as $tool) {
     echo    '</li>';
 }
 
-echo '</ul>';
-
-?>
-
-<fieldset>
-    <legend>Status</legend>
-    <label>
-        <input type="radio"  id="ordered" name="status" value="ordered" checked />
-        <label for="ordered">Ordered</label>
-    <label>
-        <input type="radio" id="arrived" name="status" value="arrived"/>
-        <label for="arrived">Arrived</label>
-</fieldset>
+echo '</ul>'; ?>
 
 <?php
-
 //---------------------------------------------------------------------------------
 
 echo '<div id="add-button">
