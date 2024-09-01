@@ -18,7 +18,7 @@ $query = 'SELECT * FROM tools
 //                area.name
 
 //         FROM tools
-//         JOIN area ON tools.place = area.location';  
+//         JOIN area ON tools.place = area.location';  ?
 
 // Attempt to run query
 try {
@@ -62,7 +62,7 @@ echo '</ul>';
 //---------------------------------------------------------------------------------
 
 echo '<div id="save-button">
-        <a href="update-tool.php">
+        <a href="update-location.php">
          Save
         </a>
 </div>';

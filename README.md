@@ -20,3 +20,4 @@ The following documents support this project:
 - [Design & Review](Design.md)
 - [Development & Testing](Development.md)
 
+- [SQL Database](aalee_200_assessment.sql)

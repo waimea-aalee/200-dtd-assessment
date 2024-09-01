@@ -74,11 +74,21 @@ https://www.realtimecolors.com/?colors=990606-ffffff-dc3030-f08c8c-fcadae&fonts=
 
 Added colour
 
-I tried creating the first design with colour, I am unsure about the pinks but I will talk to my end user about it, other than that the texts are easy to read because of the darker text colour and lighter bacground colours
+I tried creating the first design with colour, I am unsure about the pinks but I will talk to my end user about it, other than that the texts are easy to read because of the darker text colour and lighter background colours
 
 ![Alt text](images/supplylist_colour_v1.png)
 
-### 22/072024
+### 14/06/2024
+
+New colour
+
+I talked with my end uer and we decided that the greens and blacks would look better.
+
+https://www.realtimecolors.com/?colors=0b0c0c-fcfdfc-4ab86b-98cfa8-69c986&fonts=Inter-Inter
+
+![Alt text](images/colours_v3.png)
+
+### 22/07/2024
 
 New sql
 
