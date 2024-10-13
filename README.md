@@ -2,7 +2,7 @@
 
 This is my Level 2 NCEA project for Digital Technologies
 
-![Example Image](images/hammer.png)
+![Example Image](docs/images/hammer.png)
 
 It is a database-connected website that allows users to:
 
@@ -17,7 +17,5 @@ It is a database-connected website that allows users to:
 
 The following documents support this project:
 
-- [Design & Review](Design.md)
-- [Development & Testing](Development.md)
-
-- [SQL Database](aalee_200_assessment.sql)
+- [Design & Review](docs/Design.md)
+- [Development & Testing](docs/Development.md)
